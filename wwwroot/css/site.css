@@ -1,0 +1,56 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: "Archivo Black", serif;
+}
+
+a {
+    color: darkred;
+}
+
+a:hover {
+    color: white;
+    background-color: darkred;
+}
+
+.display-3 {
+    color: snow;
+    text-shadow: 2px 2px darkred, -2px -2px darkred;
+}
+
+h1 {
+    color: #F5D2D3;
+    text-shadow: -1px -1px darkred, 3px 3px darkred;
+}
+
+img {
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 4px 4px black;
+}
+
+.row p {
+    color: white;
+    background-color: darkred;
+    height: 300px;
+    border: 10px solid darkred;
+    border-radius: 25px;
+}
